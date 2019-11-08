@@ -1,0 +1,17 @@
+@import 'styles/variables.scss';
+
+.main_content{
+    padding: 25px 0;
+    position: relative;
+    @media screen and (max-width: $screen-xxs-max){
+        // padding-left: 15px;
+        // padding-right: 15px;
+    }
+}
+
+.wrapPushleft{
+    padding-left: 80px;
+}
+.wrapPushright {
+    padding-right: 80px;
+}

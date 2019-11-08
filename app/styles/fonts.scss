@@ -1,0 +1,59 @@
+h1 {
+  font-size: 26pt; //34px
+  line-height: 1.5 !important;
+  margin-bottom: 20px;
+  font-weight: $font_Extra_light !important;
+  // @media(max-width: $screen-xs-max) {
+  //   font-size: 24px !important;
+  // }
+}
+
+h2 {
+  font-size: 21pt; //28px
+  line-height: 1.5 !important;
+  margin-bottom: 20px;
+  // @media(max-width: $screen-xs-max) {
+  //   font-size: 20px !important;
+  // }
+}
+
+h3 {
+  font-size: 18pt; //24px
+  line-height: 1.5;
+  color: $primary !important;
+  // @media(max-width: $screen-xs-max) {
+  //   font-size: 24px;
+  // }
+}
+
+h4 {
+  font-size: 16.5pt !important; //22px
+  line-height: 1.2 !important;
+  // @media(max-width: $screen-xs-max) {
+  //   font-size: 18px;
+  // }
+}
+
+h5 {
+  font-size: 13.5pt; //18px
+  line-height: 20px !important;
+  color: $primary !important;
+}
+
+h6 {
+  font-size: 10.5pt; //14px
+  font-weight: $font_normal;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  font-weight: $font_normal;
+}
+
+body {
+  font-size: 10.5pt;
+  font-weight: $font_normal;
+  font-family: $acumin_pro !important;
+}

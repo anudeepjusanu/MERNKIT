@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Group_946" data-name="Group 946" transform="translate(-497 -303)">
+    <g id="Ellipse_19" data-name="Ellipse 19" transform="translate(497 303)" fill="none" stroke="#275682" stroke-width="1">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="8.5" fill="none"/>
+    </g>
+    <text id="_" data-name="!" transform="translate(503 307)" fill="#275682" font-size="14" font-family="AcuminPro-Semibold, Acumin Pro" font-weight="600"><tspan x="0.281" y="10">!</tspan></text>
+  </g>
+</svg>

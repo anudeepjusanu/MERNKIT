@@ -1,0 +1,100 @@
+@import 'styles/variables.scss';
+.lightBackground {
+    background-color: #f6f6f6;
+    padding: 10px;
+    margin-left: 0 !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.required {
+    color: red;
+    position: absolute;
+    font-size: 11px;
+    left: 0;
+    line-height: 12px;
+    bottom: -55px;
+    min-height: 60px;
+}
+
+.checkbox_field {
+    font-size: 9.75pt;
+    color: $primary;
+    font-weight: $font_light;
+    svg {
+        color: $primary;
+    }
+}
+
+.maskTextField {
+    position: relative;
+    +.required {
+        bottom: -61px;
+    }
+    &.filled {
+        label {
+            left: 0px;
+            letter-spacing: 1px;
+            transform: translate(0, 2px) scale(0.85) !important;
+        }
+    }
+    .maskTextFieldFocus {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        position: absolute;
+        transform: scaleX(0);
+        transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+        border-bottom: 2px solid $primary;
+        pointer-events: none;
+        display: block;
+    }
+    .maskTextFieldInput {
+        padding: 17px 12px 11px 0;
+        color: $primary;
+        font-weight: 600;
+        line-height: 18px;
+        font-size: 16px;
+        position: relative;
+        width: 100%;
+        outline: none;
+        z-index: 2;
+        &:focus {
+            +label {
+                left: 0px;
+                letter-spacing: 1px;
+                transform: translate(0, 2px) scale(0.85) !important;
+                +.maskTextFieldFocus {
+                    transform: scaleX(1);
+                }
+            }
+        }
+    }
+    &:before {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "\00a0";
+        position: absolute;
+        transition: $primary 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+        pointer-events: none;
+    }
+    label {
+        color: $primary;
+        font-weight: 300;
+        transform: translate(0, 16px) scale(1);
+        line-height: 15px;
+        z-index: 1;
+        font-size: 15px;
+        transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+        display: block;
+        transform-origin: top left;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+}
