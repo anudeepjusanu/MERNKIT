@@ -1,0 +1,223 @@
+@import 'styles/variables.scss';
+
+.sign_wrapper {
+  .sign_wrapper_in {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    @media (max-width: $screen-xxs-max) {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .sign_header {
+      margin-bottom: 10px;
+      @media (max-width: $screen-xxs-max) {
+        margin-bottom: -12px;
+        .sign_list_main {
+          display: none;
+        }
+      }
+      .sign_list {
+        ul {
+          display: flex;
+          li {
+            margin-right: 15px;
+            a {
+              opacity: 0.5;
+              padding: 0 5px 20px;
+              text-decoration: none;
+              &.active,
+              &:hover {
+                opacity: 1;
+                border-bottom: 2px solid $secondary;
+              }
+            }
+          }
+        }
+      }
+      .sign_logo {
+        display: flex;
+        justify-content: flex-end;
+        @media (max-width: $screen-xxs-max) {
+          justify-content: flex-start;
+        }
+        img {
+          width: 145px;
+          @media (max-width: $screen-xxs-max) {
+            width: 170px;
+          }
+        }
+      }
+    }
+    .signup-btn {
+      margin-top: 45px;
+      @media (max-width: $screen-xxs-max) {
+        text-align: center;
+      }
+      &.signup_btn_mar {
+        @media (max-width: $screen-xxs-max) {
+          margin-top: 0;
+        }  
+      }
+    }
+    .sign_bottom {
+      @media (max-width: $screen-xxs-max) {
+        text-align: center;
+      }
+      p {
+        font-size: 9.75pt;
+        font-weight: $font_normal;
+        color: $primary;
+        border-bottom: rgba($gray, 0.3) 1px solid;
+        padding-bottom: 10px;
+        margin: 0;
+      }
+      h6 {
+        color: $primary;
+        margin: 12px 0 0 0;
+        a {
+          color: $secondary;
+        }
+      }
+      &.signin_foo {
+        p {
+          color: $primary;
+          font-size: 10.5pt;
+          font-weight: $font_normal;
+          a {
+            color: $primary;
+            text-decoration: underline;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+        h6 {
+          a {
+            color: $primary;
+            text-decoration: underline;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      &.onboarding_footer {
+        p {
+          border-bottom: none;
+          border-top: rgba($gray, 0.3) 1px solid;
+          padding-top: 10px;
+        }
+      }
+    }
+    &.step2_wrapper_top {
+      padding-bottom: 30px;
+    }
+  }
+}
+
+
+/**new*/
+.h-100 {
+  min-height: 100vh;
+}
+#app,
+body,
+html {
+  min-height: 100vh;
+}
+.sign_wrapper {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  .sign_wrapper_in {
+    padding-bottom: 80px;
+  }
+  &.sign-btm-pg {
+    @media (max-width: $screen-xxs-max) {
+      background-image: none !important;
+    }
+    .sign_wrapper_in {
+      padding-bottom: 50px;
+      @media (max-width: $screen-xxs-max) {
+        padding-bottom: 0px;
+      }
+    }
+  }
+  &.onboard_wrapper {
+    @media (max-width: $screen-xxs-max) {
+      background-image: none !important;
+    }
+    .sign_wrapper_in {
+      padding-bottom: 20px;
+    }
+  }
+}
+
+// .product_count {
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-start;
+//   flex-direction: row;
+//   @media (max-width: $screen-xxs-max) {
+//     display: block;
+//   }
+//   .customInput {
+//     margin-left: 15px;
+//     @media (max-width: $screen-xxs-max) {
+//       margin-left: 0;
+//     }
+//   }
+//   .productCount {
+//     margin: 0;
+//     #standard-number {
+//       background: $primary_light;
+//       padding: 15px 12px 10px;
+//       color: $primary;
+//       font-weight: $font_semi_bold;
+//       line-height: 18px;
+//       min-width: 20px;
+//       &:hover {
+//         background: $primary_light;
+//       }
+//       &:before {
+//         border-bottom-color: $primary;
+//       }
+//     }
+//   }
+// }
+
+/****new****/
+@media (max-width: $screen-xxs-max) {
+  .mobile-body-sign-bg {
+    background-color: #f5f5f5 !important;
+  }
+  .mobile-sign-innner-bg {
+    background: #ffffff !important;
+    padding: 20px;
+  }
+  .mobile-signin-innner-pd {
+    padding: 20px;
+  }
+  .mob-padb-100 {
+    padding-bottom: 100px !important;
+  }
+  .signup_wrapper {
+    background-image: none !important;
+    .sign_wrapper_in {
+      padding-bottom: 10px;
+    }
+  }
+//   .header-widget {
+//     h1 {
+//       font-size: 25px !important;
+//       line-height: 35px !important;
+//       span {
+//         font-size: 14px !important;
+//         line-height: 20px !important;
+//       }
+//     }
+//     p {
+//       margin-top: 5px !important;
+//     }
+//   }
+}

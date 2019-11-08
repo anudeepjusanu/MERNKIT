@@ -13740,3 +13740,383 @@ Username or password is incorrect
 [undefined] Response Body:
 <Buffer>
 [-] Response: 200 1.602 ms 
+[-] Request: GET /d18aeb893248b22c8b55.hot-update.json at Fri Nov 08 2019 23:02:23 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 1.088 ms 
+[-] Request: GET /main.d18aeb893248b22c8b55.hot-update.js at Fri Nov 08 2019 23:02:23 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.850 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:02:23 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.718 ms 
+[-] Request: GET /6c13f6722545cb7a3cad.hot-update.json at Fri Nov 08 2019 23:02:30 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.531 ms 
+[-] Request: GET /main.6c13f6722545cb7a3cad.hot-update.js at Fri Nov 08 2019 23:02:31 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.362 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:02:31 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 4.894 ms 
+[-] Request: GET /a38f21107861469e90f1.hot-update.json at Fri Nov 08 2019 23:02:43 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.642 ms 
+[-] Request: GET /dashboard at Fri Nov 08 2019 23:02:44 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- The first thing in any HTML file should be the charset -->
+    <meta charset="utf-8">
+
+    <!-- Make the page mobile compatible -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>MERN</title>
+</head>
+
+<body>
+    <!-- Display a message if JS has been disabled on the browser. -->
+    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>,
+        please <strong>enable JS</strong> to make this app work.</noscript>
+
+    <!-- The app hooks into this div -->
+    <div id="app"></div>
+    <!-- Open Sans Font -->
+    <link href="https://fonts.googleapis.
+[-] Response: 200 0.992 ms 
+[-] Request: GET /__webpack_hmr at Fri Nov 08 2019 23:02:44 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[-] Response: 200 3229.790 ms 
+[-] Request: GET /runtime.js at Fri Nov 08 2019 23:02:44 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.630 ms 
+[-] Request: GET /materialUIVendor.chunk.js at Fri Nov 08 2019 23:02:44 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 18.587 ms 
+[-] Request: GET /utilityVendor.chunk.js at Fri Nov 08 2019 23:02:44 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 20.114 ms 
+[-] Request: GET /vendors~main.chunk.js at Fri Nov 08 2019 23:02:44 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 29.212 ms 
+[-] Request: GET /reactvendor.chunk.js at Fri Nov 08 2019 23:02:44 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 53.642 ms 
+[-] Request: GET /main.chunk.js at Fri Nov 08 2019 23:02:44 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 27.519 ms 
+[-] Request: GET /Dashboard.chunk.js at Fri Nov 08 2019 23:02:46 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.394 ms 
+[-] Request: GET /92d40eef546b1b751f533cfe8a386a51.svg at Fri Nov 08 2019 23:02:46 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.484 ms 
+[-] Request: GET /7b01333e486835639c0275045dc371c6.svg at Fri Nov 08 2019 23:02:46 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.536 ms 
+[-] Request: GET /api/v1/users at Fri Nov 08 2019 23:02:47 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+[
+	{
+		"active": true,
+		"role": "user",
+		"_id": "5dc5a29f02a1c57870e296a1",
+		"firstName": "Anudeep",
+		"lastName": "D",
+		"email": "anudeep.gmr@gmail.com",
+		"hash": "$2a$10$ZhWZxBzUl4zyMkoGUGpYTObhCX9M65m8RC2DCrUNBucLK5ivsZbqS",
+		"date": "2019-11-08T17:15:11.129Z",
+		"__v": 0
+	},
+	{
+		"active": true,
+		"role": "user",
+		"_id": "5dc5a3ba86657578b9a9f0a2",
+		"firstName": "Vijay",
+		"lastName": "Sample",
+		"email": "vijay@gmail.com",
+		"hash": "$2a$10$UMV7362cEdQQHjSR9WC/6O1ZGHYJwUantc.c4HeqFJAzVLw2k82eC",
+		"date": "2019-11-08T17:19:54.678Z",
+		"__v": 0
+	}
+]
+[-] Response: 200 3.626 ms 
+[-] Request: GET /favicon.ico at Fri Nov 08 2019 23:02:47 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.712 ms 
+[-] Request: GET /login at Fri Nov 08 2019 23:02:49 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- The first thing in any HTML file should be the charset -->
+    <meta charset="utf-8">
+
+    <!-- Make the page mobile compatible -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>MERN</title>
+</head>
+
+<body>
+    <!-- Display a message if JS has been disabled on the browser. -->
+    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>,
+        please <strong>enable JS</strong> to make this app work.</noscript>
+
+    <!-- The app hooks into this div -->
+    <div id="app"></div>
+    <!-- Open Sans Font -->
+    <link href="https://fonts.googleapis.
+[-] Response: 200 0.697 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:02:49 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.402 ms 
+[-] Request: GET /__webpack_hmr at Fri Nov 08 2019 23:02:49 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[-] Response: 200 0.827 ms 
+[-] Request: GET /runtime.js at Fri Nov 08 2019 23:02:49 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.789 ms 
+[-] Request: GET /materialUIVendor.chunk.js at Fri Nov 08 2019 23:02:49 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 7.789 ms 
+[-] Request: GET /utilityVendor.chunk.js at Fri Nov 08 2019 23:02:49 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 1.966 ms 
+[-] Request: GET /reactvendor.chunk.js at Fri Nov 08 2019 23:02:49 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 4.096 ms 
+[-] Request: GET /vendors~main.chunk.js at Fri Nov 08 2019 23:02:49 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 9.694 ms 
+[-] Request: GET /main.chunk.js at Fri Nov 08 2019 23:02:49 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 2.644 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:02:51 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.529 ms 
+[-] Request: GET /register at Fri Nov 08 2019 23:02:54 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- The first thing in any HTML file should be the charset -->
+    <meta charset="utf-8">
+
+    <!-- Make the page mobile compatible -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>MERN</title>
+</head>
+
+<body>
+    <!-- Display a message if JS has been disabled on the browser. -->
+    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>,
+        please <strong>enable JS</strong> to make this app work.</noscript>
+
+    <!-- The app hooks into this div -->
+    <div id="app"></div>
+    <!-- Open Sans Font -->
+    <link href="https://fonts.googleapis.
+[-] Response: 200 1.120 ms 
+[-] Request: GET /__webpack_hmr at Fri Nov 08 2019 23:02:54 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[-] Response: 200 0.455 ms 
+[-] Request: GET /runtime.js at Fri Nov 08 2019 23:02:54 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.784 ms 
+[-] Request: GET /utilityVendor.chunk.js at Fri Nov 08 2019 23:02:54 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 1.428 ms 
+[-] Request: GET /materialUIVendor.chunk.js at Fri Nov 08 2019 23:02:54 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 7.127 ms 
+[-] Request: GET /reactvendor.chunk.js at Fri Nov 08 2019 23:02:54 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 27.585 ms 
+[-] Request: GET /vendors~main.chunk.js at Fri Nov 08 2019 23:02:54 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 27.168 ms 
+[-] Request: GET /main.chunk.js at Fri Nov 08 2019 23:02:54 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 30.307 ms 
+[-] Request: GET /bc4f1073c69466bedc60.hot-update.json at Fri Nov 08 2019 23:03:14 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.536 ms 
+[-] Request: GET /bc4f1073c69466bedc60.hot-update.json at Fri Nov 08 2019 23:03:14 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 11.252 ms 
+[-] Request: GET /main.bc4f1073c69466bedc60.hot-update.js at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 1.384 ms 
+[-] Request: GET /main.bc4f1073c69466bedc60.hot-update.js at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 7.548 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.549 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 1.360 ms 
+[-] Request: GET /register at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- The first thing in any HTML file should be the charset -->
+    <meta charset="utf-8">
+
+    <!-- Make the page mobile compatible -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>MERN</title>
+</head>
+
+<body>
+    <!-- Display a message if JS has been disabled on the browser. -->
+    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>,
+        please <strong>enable JS</strong> to make this app work.</noscript>
+
+    <!-- The app hooks into this div -->
+    <div id="app"></div>
+    <!-- Open Sans Font -->
+    <link href="https://fonts.googleapis.
+[-] Response: 200 0.948 ms 
+[-] Request: GET /__webpack_hmr at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[-] Response: 200 0.416 ms 
+[-] Request: GET /runtime.js at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.618 ms 
+[-] Request: GET /materialUIVendor.chunk.js at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 6.905 ms 
+[-] Request: GET /utilityVendor.chunk.js at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 2.940 ms 
+[-] Request: GET /reactvendor.chunk.js at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 6.562 ms 
+[-] Request: GET /vendors~main.chunk.js at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 51.185 ms 
+[-] Request: GET /main.chunk.js at Fri Nov 08 2019 23:03:15 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 25.207 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:03:18 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.362 ms 
+[-] Request: GET /favicon.ico at Fri Nov 08 2019 23:03:18 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.834 ms 
+[-] Request: GET /68c1e5f4af168a11b173.hot-update.json at Fri Nov 08 2019 23:03:33 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 1.196 ms 
+[-] Request: GET /68c1e5f4af168a11b173.hot-update.json at Fri Nov 08 2019 23:03:33 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 1.134 ms 
+[-] Request: GET /main.68c1e5f4af168a11b173.hot-update.js at Fri Nov 08 2019 23:03:33 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.909 ms 
+[-] Request: GET /main.68c1e5f4af168a11b173.hot-update.js at Fri Nov 08 2019 23:03:33 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.987 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:03:33 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.572 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:03:33 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.736 ms 
+[-] Request: POST /api/v1/users at Fri Nov 08 2019 23:03:44 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Request Body:
+{
+	"firstName": "Anudeep",
+	"lastName": "Du",
+	"email": "a@a.com",
+	"password": "anudeep02"
+}
+[undefined] Response Body:
+{
+	"active": true,
+	"role": "user",
+	"_id": "5dc5a6f886657578b9a9f0a3",
+	"firstName": "Anudeep",
+	"lastName": "Du",
+	"email": "a@a.com",
+	"hash": "$2a$10$Y8V6LovzzsuiUH4N/7mo.OxJlrSEmme3DWxczCwdxKwfa.U53QBIS",
+	"date": "2019-11-08T17:33:44.910Z",
+	"__v": 0
+}
+[-] Response: 200 97.311 ms 
+[-] Request: GET /47dc4fce25d55ba0c0272c57a24e57f2.png at Fri Nov 08 2019 23:03:45 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.447 ms 
+[-] Request: GET /dd5e9adf6e66d91589c7.hot-update.json at Fri Nov 08 2019 23:03:50 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.782 ms 
+[-] Request: GET /dd5e9adf6e66d91589c7.hot-update.json at Fri Nov 08 2019 23:03:50 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<Buffer>
+[-] Response: 200 0.642 ms 
