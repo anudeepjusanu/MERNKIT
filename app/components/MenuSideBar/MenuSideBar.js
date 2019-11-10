@@ -1,6 +1,5 @@
 import React, { useState, useContext } from 'react';
 import { SwipeableDrawer, Grid, Link, Typography } from '@material-ui/core';
-import MenuLogo from 'images/evergentFavicon.png';
 import BackArrow from 'images/go-back-arrow.svg';
 import './style.scss';
 import UserContext from '../../UserContext';
@@ -26,7 +25,7 @@ function MenuSideBar(props) {
         >
           <Grid item className="sidemenu_content">
             <div className="menu-header">
-              <Link><img src={MenuLogo} alt="Logo" className="menulogo" /></Link>
+              <Link></Link>
             </div>
             <Typography className="head_backnav" variant="h3">
               <Link className="back_nav" onClick={() => props.MenutoggleDrawer('menuLeft', false)}>

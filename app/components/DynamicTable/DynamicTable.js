@@ -3,7 +3,7 @@ import { Grid } from '@material-ui/core';
 import MUIDataTable from 'mui-datatables';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import evergentTheme from '../../themes/evergentTheme/evergentTheme.json';
+import myTheme from '../../themes/myTheme/myTheme.json';
 import './style.scss';
 
 class DynamicTable extends React.Component {
@@ -14,7 +14,7 @@ class DynamicTable extends React.Component {
           padding: '0',
           minHeight: '34px',
           '& button': {
-            color: evergentTheme.palette.primary.main,
+            color: myTheme.palette.primary.main,
             padding: '4px',
             fontSize: '11.25pt',
             marginLeft: '10px',
@@ -52,7 +52,7 @@ class DynamicTable extends React.Component {
         },
         titleText: {
           fontSize: '9pt',
-          color: evergentTheme.palette.primary.main,
+          color: myTheme.palette.primary.main,
           fontWeight: '400',
           textTransform: 'uppercase',
           fontFamily: 'acumin-pro, sans-serif',
@@ -62,7 +62,7 @@ class DynamicTable extends React.Component {
       MUIDataTableHeadCell: {
         root: {
           fontSize: '9pt',
-          color: evergentTheme.tertiary,
+          color: myTheme.tertiary,
           fontWeight: '600',
           fontFamily: 'acumin-pro, sans-serif',
           border: '0',
@@ -93,7 +93,7 @@ class DynamicTable extends React.Component {
         },
         body: {
           fontSize: '9.75pt',
-          color: evergentTheme.palette.primary.main,
+          color: myTheme.palette.primary.main,
           fontWeight: '400',
           fontFamily: 'acumin-pro, sans-serif'
         }
@@ -116,7 +116,7 @@ class DynamicTable extends React.Component {
       MUIDataTablePagination: {
         root: {
           padding: '0 !important',
-          color: `${evergentTheme.palette.primary.main} !important`,
+          color: `${myTheme.palette.primary.main} !important`,
           fontSize: '10.5pt',
           fontWeight: '400',
           fontFamily: 'acumin-pro, sans-serif',
@@ -135,7 +135,7 @@ class DynamicTable extends React.Component {
       MuiTablePagination: {
         root: {
           padding: '0 !important',
-          color: evergentTheme.palette.primary.main,
+          color: myTheme.palette.primary.main,
           fontSize: '10.5pt',
           fontWeight: '400',
           fontFamily: 'acumin-pro, sans-serif',
@@ -145,14 +145,14 @@ class DynamicTable extends React.Component {
           paddingLeft: 0,
           fontSize: '10.5pt',
           '& button': {
-            color: evergentTheme.palette.primary.main,
+            color: myTheme.palette.primary.main,
             padding: '4px',
             fontSize: '11.25pt',
             marginLeft: '10px',
             borderRadius: '4px'
           },
           '& button:disabled': {
-            color: evergentTheme.palette.primary.main,
+            color: myTheme.palette.primary.main,
           }
         },
         spacer: {
@@ -179,15 +179,15 @@ class DynamicTable extends React.Component {
     },
     palette: {
       primary: {
-        light: evergentTheme.palette.primary.main,
-        main: evergentTheme.palette.primary.main,
-        dark: evergentTheme.palette.primary.main,
+        light: myTheme.palette.primary.main,
+        main: myTheme.palette.primary.main,
+        dark: myTheme.palette.primary.main,
         contrastText: '#fff'
       },
       secondary: {
-        light: evergentTheme.palette.secondary.main,
-        main: evergentTheme.palette.secondary.main,
-        dark: evergentTheme.palette.secondary.main,
+        light: myTheme.palette.secondary.main,
+        main: myTheme.palette.secondary.main,
+        dark: myTheme.palette.secondary.main,
         contrastText: '#fff'
       }
     }

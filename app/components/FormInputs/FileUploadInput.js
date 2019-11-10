@@ -16,7 +16,7 @@ import DefaultImgIcon from 'images/default-img.png';
 import DeleteIcon from 'images/delete2-wht-icon.png';
 import DeleteIconBlue from 'images/delete-icon.png';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import evergentTheme from '../../themes/evergentTheme/evergentTheme.json';
+import myTheme from '../../themes/myTheme/myTheme.json';
 
 const styles = (theme) => ({
   baseStyle: {
@@ -61,7 +61,7 @@ const baseStyle = {
   borderRadius: 2,
   borderColor: '#eeeeee',
   borderStyle: 'dashed',
-  color: evergentTheme.palette.primary.main,
+  color: myTheme.palette.primary.main,
   outline: 'none',
   transition: 'border .24s ease-in-out',
   cursor: 'pointer'
@@ -79,7 +79,7 @@ const baseStyleForText = {
   borderRadius: 2,
   borderColor: '#eeeeee',
   borderStyle: 'dashed',
-  color: evergentTheme.palette.primary.main,
+  color: myTheme.palette.primary.main,
   outline: 'none',
   transition: 'border .24s ease-in-out',
   maxWidth: '420px',
@@ -148,7 +148,7 @@ const customStyles = {
     cursor: 'pointer'
   },
   delete: {
-    background: evergentTheme.palette.primary.main,
+    background: myTheme.palette.primary.main,
     padding: '8px'
   }
 };

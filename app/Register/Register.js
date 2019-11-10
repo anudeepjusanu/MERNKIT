@@ -6,7 +6,6 @@ import { Formik, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { Email, TextInput } from 'components/FormInputs';
 import { userActions } from 'actions';
-import SignInBg from 'images/SignIn-artwork-bg-new.png';
 import UserContext from '../UserContext';
 import './style.scss';
 
@@ -44,7 +43,7 @@ function Register(props) {
 
                         }}
                     </UserContext.Consumer>
-                    <div className="sign_wrapper sign-btm-pg" style={{ backgroundImage: `url(${SignInBg})` }}>
+                    <div className="sign_wrapper sign-btm-pg">
                         <div className="container">
                             <Grid container spacing={3} className="sign_wrapper_in">
                                 <Grid item xs={12}>

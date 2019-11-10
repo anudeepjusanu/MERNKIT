@@ -8,7 +8,7 @@ import UserContext from '../../UserContext';
 import Alert from 'react-s-alert';
 
 import { MuiThemeProvider, createMuiTheme, CssBaseline } from '@material-ui/core';
-import evergentTheme from '../../themes/evergentTheme/evergentTheme.json';
+import myTheme from '../../themes/myTheme/myTheme.json';
 
 import 'react-s-alert/dist/s-alert-default.css';
 
@@ -34,20 +34,20 @@ function App(props) {
 
 
   if (props.app.primary && props.app.secondary && props.app.tertiary) {
-    evergentTheme.palette.primary = {
+    myTheme.palette.primary = {
       main: props.app.primary,
       dark: props.app.primary,
       light: props.app.primary
     };
-    evergentTheme.palette.secondary = {
+    myTheme.palette.secondary = {
       main: props.app.secondary,
       dark: props.app.secondary,
       light: props.app.secondary
     };
-    evergentTheme.primary = props.app.primary;
+    myTheme.primary = props.app.primary;
 
-    evergentTheme.secondary = props.app.secondary;
-    evergentTheme.tertiary = props.app.tertiary;
+    myTheme.secondary = props.app.secondary;
+    myTheme.tertiary = props.app.tertiary;
 
     root.style.setProperty('--themeprimarycolor', hex2rgba(props.app.primary));
     root.style.setProperty('--themeprimarycolorRGB', hexVal(props.app.primary));
@@ -56,12 +56,12 @@ function App(props) {
     root.style.setProperty('--themetertiarycolor', hex2rgba(props.app.tertiary));
     root.style.setProperty('--themetertiarycolorRGB', hexVal(props.app.tertiary));
 
-    theme = createMuiTheme(evergentTheme);
+    theme = createMuiTheme(myTheme);
     theme.primaryRGB = hexVal(props.app.primary);
     theme.secondaryRGB = hexVal(props.app.secondary);
     theme.tertiaryRGB = hexVal(props.app.tertiary);
   } else {
-    theme = createMuiTheme(evergentTheme);
+    theme = createMuiTheme(myTheme);
     theme.primaryRGB = hexVal(props.app.primary);
     theme.secondaryRGB = hexVal(props.app.secondary);
     theme.tertiaryRGB = hexVal(props.app.tertiary);

@@ -13,6 +13,5 @@ export { default as EvDatePicker } from './DatePicker';
 export { default as SearchInput } from './SearchInput';
 export { default as MultipleSelectInput } from './MultipleSelectInput';
 export { default as PriceDetails } from './PriceDetails';
-export { default as AppChannelDetails } from './AppChannelDetails';
 export { default as ProductAttributeDetails } from './ProductAttributeDetails';
 export { default as PromotionAttributeDetails } from './PromotionAttributeDetails';

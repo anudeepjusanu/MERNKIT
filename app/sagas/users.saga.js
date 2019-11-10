@@ -14,12 +14,13 @@ import Alert from 'react-s-alert';
 import { userActions } from 'actions';
 import { history, authHeader } from 'helpers';
 import { appConstants } from '../constants';
-
 // worker Saga: will be fired on USER_FETCH_REQUESTED actions
 function* getUsers(payload) {
+    var credentials = authHeader();
     const requestOptions = {
         url: 'users',
-        method: 'GET'
+        method: 'GET',
+        accessToken: credentials.apiKey
     };
     try {
         const usersObj = yield call(request, requestOptions);

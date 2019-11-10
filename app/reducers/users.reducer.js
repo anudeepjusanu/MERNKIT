@@ -7,7 +7,6 @@ const initialState = {
     }
 };
 export function users(state = initialState, action) {
-    console.log(action.type)
     switch (action.type) {
         case appConstants.USERS_LIST:
             return {

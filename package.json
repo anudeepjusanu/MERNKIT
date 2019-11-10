@@ -31,7 +31,6 @@
         "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js  /app/SignIn/tests/Signin.test.js --runInBand",
         "clear": "rm -rf node_modules",
         "reinstall": "npm run clear && npm install",
-        "fetchMasterData": "node config/masterData.js",
         "analyzeProdBundle": "webpack-bundle-analyzer .logs/stats.json"
     },
     "dependencies": {

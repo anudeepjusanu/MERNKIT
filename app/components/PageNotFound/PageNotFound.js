@@ -6,7 +6,6 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { Link as RouterLink } from 'react-router-dom';
 import { Grid, Typography, Link, Button } from '@material-ui/core';
-import EvergentLogo from 'images/Evergent-logo.svg';
 import NopageImage from 'images/404-page-artwork.png';
 import { history } from 'helpers';
 import './style.scss';
@@ -31,11 +30,7 @@ function PageNotFound() {
                 <Grid item sm={12}>
                   <div className="sign_logo">
                     <Link component={RouterLink} to="/">
-                      <img
-                        src={EvergentLogo}
-                        width="160"
-                        alt="EvergentLogo"
-                      />
+
                     </Link>
                   </div>
                 </Grid>

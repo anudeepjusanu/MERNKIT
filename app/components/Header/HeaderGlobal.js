@@ -9,7 +9,6 @@ import MenuSideBar from 'components/MenuSideBar';
 import { connect } from 'react-redux';
 import { store } from 'store';
 import { appActions, authenticationActions } from 'actions';
-import EvergentLogo from 'images/Evergent-logo.svg';
 import MenuIcon from 'images/explore_icon.svg';
 import UserIcon from 'images/profile-icon.svg';
 import BackArrow from 'images/go-back-arrow.svg';

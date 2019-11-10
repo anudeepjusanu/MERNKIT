@@ -9,7 +9,6 @@ import { withStyles } from '@material-ui/core/styles';
 import { Logout } from 'components/Logout';
 import { connect } from 'react-redux';
 import MenuSideBar from 'components/MenuSideBar';
-import EvergentLogo from 'images/Evergent-logo.svg';
 import MenuIcon from 'images/explore_icon.svg';
 import UserIcon from 'images/profile-icon.svg';
 import BackArrow from 'images/go-back-arrow.svg';
