@@ -76,6 +76,16 @@ app.use('/report', (req, res) => {
   });
 });
 
+app.use('/admin', (req, res) => {
+  fs.readFile('./app/admin.html', (err, file) => {
+    if (err) {
+      res.sendStatus(404);
+    } else {
+      res.send(file.toString());
+    }
+  });
+});
+
 // get the intended host and port number, use localhost and port 3000 if not provided
 const customHost = argv.host || process.env.HOST;
 const host = customHost || null; // Let http.Server use its default IPv6/4 host
