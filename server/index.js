@@ -12,7 +12,6 @@ const argv = require('./util/argv');
 const path = require('path');
 const port = require('./util//port');
 var bodyParser = require('body-parser');
-const setup = require('./middlewares/frontendMiddleware');
 var session = require('express-session');
 var cors = require('cors');
 const { resolve } = require('path');
@@ -58,14 +57,24 @@ app.use(v1_base_path, Router);
 //   publicPath: '/',
 // });
 app.use('/sms', (req, res) => {
-  fs.readFile('./sms.html', (err, file) => {
+  fs.readFile('./app/sms.html', (err, file) => {
     if (err) {
       res.sendStatus(404);
     } else {
       res.send(file.toString());
     }
   });
-})
+});
+
+app.use('/report', (req, res) => {
+  fs.readFile('./app/report.html', (err, file) => {
+    if (err) {
+      res.sendStatus(404);
+    } else {
+      res.send(file.toString());
+    }
+  });
+});
 
 // get the intended host and port number, use localhost and port 3000 if not provided
 const customHost = argv.host || process.env.HOST;
