@@ -15471,3 +15471,156 @@ Username or password is incorrect
 [undefined] Response Body:
 <Buffer>
 [-] Response: 200 0.566 ms 
+[-] Request: GET /__webpack_hmr at Sun Nov 10 2019 17:05:47 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[-] Response: 200 1.107 ms 
+[-] Request: GET /__webpack_hmr at Sun Nov 10 2019 17:05:47 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[-] Response: 200 0.469 ms 
+[-] Request: GET /__webpack_hmr at Sun Nov 10 2019 17:28:39 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[-] Response: 200 0.582 ms 
+[-] Request: GET /__webpack_hmr at Sun Nov 10 2019 17:28:39 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[-] Response: 200 0.584 ms 
+[-] Request: GET /50c6d0218caa8e462d5f.hot-update.json at Sun Nov 10 2019 18:04:23 GMT+0530, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+[undefined] Response Body:
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- The first thing in any HTML file should be the charset -->
+    <meta charset="utf-8">
+
+    <!-- Make the page mobile compatible -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>MERN</title>
+</head>
+
+<body>
+    <!-- Display a message if JS has been disabled on the browser. -->
+    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>,
+        please <strong>enable JS</strong> to make this app work.</noscript>
+
+    <!-- The app hooks into this div -->
+    <div id="app"></div>
+    <!-- Open Sans Font -->
+    <link href="https://fonts.googleapis.
+[-] Response: 200 2.971 ms 
+[-] Request: POST /api/v1/requirement at Sun Nov 10 2019 18:14:19 GMT+0530, User Agent: PostmanRuntime/7.17.1
+[undefined] Request Body:
+{
+	"locationName": "Hyderabad",
+	"longitude": "",
+	"latitude": "",
+	"things": [
+		{
+			"name": "food",
+			"quantity": 10
+		},
+		{
+			"name": "medicine",
+			"quantity": -10
+		}
+	]
+}
+[undefined] Response Body:
+{
+	"errors": {
+		"longitude": {
+			"message": "Path `longitude` is required.",
+			"name": "ValidatorError",
+			"properties": {
+				"message": "Path `longitude` is required.",
+				"type": "required",
+				"path": "longitude",
+				"value": ""
+			},
+			"kind": "required",
+			"path": "longitude",
+			"value": ""
+		},
+		"latitude": {
+			"message": "Path `latitude` is required.",
+			"name": "ValidatorError",
+			"properties": {
+				"message": "Path `latitude` is required.",
+				"type": "required",
+				"path": "latitude",
+				"value": ""
+			},
+			"kind": "required",
+			"path": "latitude",
+			"value": ""
+		}
+	},
+	"_message": "Requirement validation failed",
+	"message": "Requirement validation failed: longitude: Path `longitude` is required., latitude: Path `latitude` is required.",
+	"name": "ValidationError"
+}
+[-] Response: 400 22.284 ms 
+[-] Request: POST /api/v1/requirement at Sun Nov 10 2019 18:15:25 GMT+0530, User Agent: PostmanRuntime/7.17.1
+[undefined] Request Body:
+{
+	"locationName": "Hyderabad",
+	"longitude": "78.4867",
+	"latitude": "17.3850",
+	"things": [
+		{
+			"name": "food",
+			"quantity": 10
+		},
+		{
+			"name": "medicine",
+			"quantity": -10
+		}
+	]
+}
+[undefined] Response Body:
+{
+	"active": true,
+	"_id": "5dc806659583f081dc4e77e2",
+	"locationName": "Hyderabad",
+	"longitude": "78.4867",
+	"latitude": "17.3850",
+	"things": [
+		{
+			"_id": "5dc806659583f081dc4e77e4",
+			"name": "food",
+			"quantity": 10
+		},
+		{
+			"_id": "5dc806659583f081dc4e77e3",
+			"name": "medicine",
+			"quantity": -10
+		}
+	],
+	"date": "2019-11-10T12:45:25.225Z",
+	"__v": 0
+}
+[-] Response: 200 18.059 ms 
+[-] Request: GET /api/v1/requirement at Sun Nov 10 2019 18:20:22 GMT+0530, User Agent: PostmanRuntime/7.17.1
+[undefined] Response Body:
+[
+	{
+		"active": true,
+		"_id": "5dc806659583f081dc4e77e2",
+		"locationName": "Hyderabad",
+		"longitude": "78.4867",
+		"latitude": "17.3850",
+		"things": [
+			{
+				"_id": "5dc806659583f081dc4e77e4",
+				"name": "food",
+				"quantity": 10
+			},
+			{
+				"_id": "5dc806659583f081dc4e77e3",
+				"name": "medicine",
+				"quantity": -10
+			}
+		],
+		"date": "2019-11-10T12:45:25.225Z",
+		"__v": 0
+	}
+]
+[-] Response: 200 49.410 ms 
