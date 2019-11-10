@@ -7,6 +7,7 @@ const express = require('express');
 const logger = require('./util//logger');
 var { v1_base_path, secret, dburl } = require('../config');
 var expressJwt = require('express-jwt');
+const fs = require('fs');
 const argv = require('./util/argv');
 const path = require('path');
 const port = require('./util//port');
@@ -56,6 +57,15 @@ app.use(v1_base_path, Router);
 //   outputPath: resolve(process.cwd(), 'build'),
 //   publicPath: '/',
 // });
+app.use('/sms', (req, res) => {
+  fs.readFile('./sms.html', (err, file) => {
+    if (err) {
+      res.sendStatus(404);
+    } else {
+      res.send(file.toString());
+    }
+  });
+})
 
 // get the intended host and port number, use localhost and port 3000 if not provided
 const customHost = argv.host || process.env.HOST;
