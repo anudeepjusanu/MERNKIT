@@ -42,7 +42,7 @@
         "ip": "1.1.5",
         "tracer": "^0.9.8",
         "body-parser": "1.18.3",
-        "express-jwt": "^3.0.1",
+        "express-jwt": "^6.0.0",
         "express-session": "^1.11.3",
         "jsonwebtoken": "^5.0.2",
         "cors": "2.8.4",
