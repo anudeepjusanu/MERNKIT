@@ -47,7 +47,7 @@
         "jsonwebtoken": "^5.0.2",
         "cors": "2.8.4",
         "mongoose": "^5.5.2",
-        "underscore": "1.9.1",
+        "underscore": "1.12.1",
         "bcryptjs": "^2.1.0",
         "morgan-body": "^2.4.8",
         "rotating-file-stream": "^1.4.3"
