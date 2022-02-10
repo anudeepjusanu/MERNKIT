@@ -99,7 +99,7 @@
         "imports-loader": "0.8.0",
         "lint-staged": "^7.1.3",
         "node-plop": "^0.15.0",
-        "node-sass": "^4.7.2",
+        "node-sass": "^7.0.0",
         "node-sass-json-importer": "^4.1.0",
         "null-loader": "0.1.1",
         "plop": "2.0.0"
