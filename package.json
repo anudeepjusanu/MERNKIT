@@ -44,7 +44,7 @@
         "body-parser": "1.18.3",
         "express-jwt": "^3.0.1",
         "express-session": "^1.11.3",
-        "jsonwebtoken": "^5.0.2",
+        "jsonwebtoken": "^9.0.0",
         "cors": "2.8.4",
         "mongoose": "^5.5.2",
         "underscore": "1.9.1",
